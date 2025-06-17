@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="restoran lotos">
+    <meta name="keywords" content="lotos">
+    <meta name="author" content="Anja Niciforovic, anjanrt3322@gs.viser.edu.rs">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/novistil.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="slike/lotos.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="O nama.html">O nama</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Galerija.html">Galerija</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Meni
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Dorucak.html">Doručak</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Predjela.html">Predjela</a></li>
+                  <li><a class="dropdown-item" href="Rostilj.html">Roštilj</a></li>
+                  <li><a class="dropdown-item" href="Obroci.html">Obroci</a></li>
+                  <li><a class="dropdown-item" href="Poslastice.html">Poslastice</a></li>
+                </ul>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link active" href="Kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <div class="container">
+            <h2 class="display-4">Kontakt</h2>
+            <hr>
+            <div class="row">
+                <div class="col-6">
+                    <form action="izlaznastrana.html" method="post">
+                        <div class="mb-3">
+                          <label for="name" class="form-label"><i class="fas fa-user"></i> Ime i prezime</label>
+                          <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Unesite Vaše ime i prezime">
+                        </div>
+                        <div class="mb-3">
+                          <label for="e-mail" class="form-label"><i class="fas fa-envelope"></i> Email adresa</label>
+                          <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" placeholder="Unesite Vašu e-mail adresu">
+                        </div>
+                        <div class="mb-3">
+                          <label for="tel" class="form-label"><i class="fas fa-phone"></i> Telefon</label>
+                          <input type="tel" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Unesite Vaš br. telefona">
+                        </div>
+                        <div class="mb-3">
+                          <label for="subject" class="form-label"><i class="fas fa-heading"></i> Naslov poruke</label>
+                          <input type="text" class="form-control" id="text" aria-describedby="emailHelp" placeholder="Unesite naslov Vaše poruke">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputMessage1" class="form-label"><i class="fas fa-edit"></i> Poruka</label>
+                          <textarea class="form-control" id="exampleInputMessage1" rows="5" placeholder="Unesite tekst Vaše poruke"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                          <button id="contact-submit-btn" type="submit" class="btn btn-outline-warning"><i class="fas fa-paper-plane"></i> Pošalji</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                   <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> Adresa: <span class="float-end">Cara Dušana 42, Trstenik</span></li>
+                        <li><i class="fas fa-phone"></i> Telefon: <span class="float-end"><a href="tel:+0638559030">0638559030</a></span></li>
+                        <li><i class="fas fa-envelope"></i> E-mail:<span class="float-end"><a href="mailto:anjaniciforovic3@gmail.com">anjaniciforovic3gmail.com</a></span></li>
+                    </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.45288923273!2d20.990416515496577!3d43.61793197912254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475658b9c5085ab7%3A0x3850229618c34760!2sLOTOS%20MB!5e0!3m2!1ssr!2srs!4v1642005668161!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <footer>
+          <div class="row text-center">
+            <div class="col-md-12">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="O nama.html">O nama</a></li>
+                <li class="list-inline-item"><a href="Mapa.html">Mapa Sajta</a></li>
+                <li class="list-inline-item"><a href="faq.html">FAQ</a></li>
+                <li class="list-inline-item"><a target="_blank" href="Cenovnik.pdf">Cenovnik</a></li>
+                <li class="list-inline-item"><a href="Kontakt.html">Kontakt</a></li>
+              </ul>
+              <p><i class="fas fa-copyright"></i> 2022 LOTOS MB, Cara Dušana 42, Trstenik,<a href="mailto:anjaniciforovic3@gmail.com"> anjaniciforovic3gmail.com</a>,<a href="0607133468">0607133468</a></p>
+            </div>
+          </div>
+        </footer>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/all.min.js"></script>
+    </body>
+  </html>
